@@ -382,40 +382,151 @@ body {
         height: 20px;
     }
 
-    .button{
-padding: 0%;
-margin-top: ;
-margin-top: 60px;
-margin-bottom: 10px;
+    .button {
+        padding: 0%;
+        margin-top: ;
+        margin-top: 60px;
+        margin-bottom: 10px;
 
-    } 
-    .team{
+    }
+
+    .team {
         flex-direction: column;
-        grid-template-columns: repeat(1,1fr);
-      
+        grid-template-columns: repeat(1, 1fr);
+
     }
-    .team-picture{
-        width: 100%; margin: 0%;
-        grid-template-columns: repeat(1,1fr);
+
+    .team-picture {
+        width: 100%;
+        margin: 0%;
+        grid-template-columns: repeat(1, 1fr);
     }
-    .team-details,.team-details h2{
-height: 100%;
-width: 100%;
-text-align: center;
+
+    .team-details,
+    .team-details h2 {
+        height: 100%;
+        width: 100%;
+        text-align: center;
     }
-    .team-details button{
+
+    .team-details button {
         margin-top: 4%;
         width: 150px;
         color: black;
         height: 60px;
     }
-    .feature,
-    .fact,
-    .activities,
-    .sponsor,
-    .brand,
-    .footer {
-        display: none;
+
+    .feature {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 271px;
     }
 
+    .features-detail {
+        width: 100%;
+    }
+
+    .feature-des {
+        width: 100%;
+    }
+
+    .feature img {
+        width: 100%;
+    }
+
+    .experience {
+        width: 50%;
+        position: absolute;
+        left: 0%;
+        top: 4044px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 32.5%;
+
+    }
+
+    .experience h2 {
+        font-size: 30px;
+        margin: 0%;
+    }
+
+    .experience p {
+        font-size: 15px;
+    }
+
+    .fact {
+        width: 100%;
+        margin: 0%;
+        position: absolute;
+        margin-top: 181px;
+        
+    }
+
+    .activities {
+        margin: 0%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 730px;
+        
+    }
+.logo{
+    height: 250px;
+    width: 250px;
+    padding: 2%;   
+}
+    .sponsor{
+        margin: 0%;
+        width: 100%;
+        position: absolute;
+        left: 0%;
+      
+    }
+    .sponsor-header{
+        margin-top: 280px;
+    }
+    .sponsor-header h2{
+        margin-bottom: 0%;
+   border-right: 10px solid #FF900E;
+   border-left: 10px solid #FF900E;
+    }
+    .brand{
+        width: 100%;
+        padding: 0%;
+        margin: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        column-gap: 150px;
+        margin-top: 540px;
+    }
+    .brand img{
+        margin-bottom: 20px;
+    }
+    .footer {
+        width: 100%;
+        margin-top: 140px;
+      justify-content: center;
+      align-items: center;
+    }
+.footer-title{
+    height: 100%;
+    margin: 0%;
+    padding:3%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+.footer-title p{
+    
+}
 }
